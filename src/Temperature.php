@@ -18,7 +18,7 @@ class Temperature
      * @param int $measure
      * @throws TemperatureNegativeException
      */
-    public function __construct(int $measure)
+    private function __construct(int $measure)
     {
         $this->setMeasure($measure);
     }
