@@ -57,6 +57,7 @@ class Temperature
      */
     public static function take($measure): Temperature
     {
-        return new Temperature($measure);
+        return new static($measure);
+//        return new self($measure);
     }
 }

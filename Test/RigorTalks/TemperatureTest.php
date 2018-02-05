@@ -28,10 +28,9 @@ class TemperatureTest extends TestCase
     public function tryToCreateAValidTemperatureWithNamedConstructor()
     {
         $measure = 18;
-        $measure2 = Temperature::take($measure)->measure();
         $this->assertSame(
             $measure,
-            $measure2
+            Temperature::take($measure)->measure()
         );
     }
 
