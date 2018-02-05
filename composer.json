@@ -1,0 +1,13 @@
+{
+  "name": "Rigor",
+  "description": "Rigor",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "RigorTalks\\": "src"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^6"
+  }
+}

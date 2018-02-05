@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="55ae2200-735b-45dc-a63c-04c3da9a2cdf" name="vw77" url="http://vw77.voiceworks.nl">
+        <fileTransfer host="vw77.voiceworks.nl" port="22" rootFolder="/home/jesuss" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

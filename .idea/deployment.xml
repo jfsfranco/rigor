@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="vw77">
+    <serverData>
+      <paths name="vw77">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sites/operator" local="$USER_HOME$/Operator" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
