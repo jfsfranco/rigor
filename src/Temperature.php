@@ -50,4 +50,13 @@ class Temperature
             throw new TemperatureNegativeException("Measure should be positive");
         }
     }
+
+    /**
+     * @param $measure
+     * @return Temperature
+     */
+    public static function take($measure): Temperature
+    {
+        return new Temperature($measure);
+    }
 }
