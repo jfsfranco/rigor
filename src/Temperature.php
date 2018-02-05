@@ -20,6 +20,14 @@ class Temperature
      */
     public function __construct(int $measure)
     {
+        $this->setMeasure($measure);
+    }
+
+    /**
+     * @param int $measure
+     */
+    private function setMeasure(int $measure)
+    {
         $this->checkTemperatureIsNotNegative($measure);
         $this->measure = $measure;
     }
