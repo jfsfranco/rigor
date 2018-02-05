@@ -17,7 +17,7 @@ class TemperatureTest extends TestCase
 
     /**
      * @test
-     * @expectedException \Exception
+     * @expectedException TemperatureNegativeException
      */
     public function tryToCreateANonValidTemperature()
     {

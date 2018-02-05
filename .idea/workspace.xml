@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php" afterPath="$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Temperature.php" afterPath="$PROJECT_DIR$/src/Temperature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TemperatureNegativeException.php" afterPath="$PROJECT_DIR$/src/TemperatureNegativeException.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Temperature.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Temperature.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Temperature.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="25" />
+            <state relative-caret-position="980">
+              <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -31,18 +32,18 @@
       <file leaf-file-name="TemperatureNegativeException.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TemperatureNegativeException.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="320">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemperatureTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TemperatureTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            <state relative-caret-position="200">
+              <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -79,6 +80,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="PHP-6-Named-Constructors-4" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,8 +95,9 @@
         <option value="$PROJECT_DIR$/src/exception/TemperatureNegativeException.php" />
         <option value="$PROJECT_DIR$/tests/TemperatureTest.php" />
         <option value="$PROJECT_DIR$/src/TemperatureException/TemperatureNegativeException.php" />
-        <option value="$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php" />
         <option value="$PROJECT_DIR$/src/Temperature.php" />
+        <option value="$PROJECT_DIR$/src/TemperatureNegativeException.php" />
+        <option value="$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php" />
       </list>
     </option>
   </component>
@@ -230,55 +237,54 @@
       <workItem from="1517222233783" duration="15000" />
       <workItem from="1517302630183" duration="608000" />
       <workItem from="1517304458551" duration="719000" />
-      <workItem from="1517817869561" duration="14100000" />
+      <workItem from="1517817869561" duration="16029000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 12h 34m 23s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 14h 04m 35s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 12h 34m 52s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 14h 05m 33s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 12h 34m 59s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 05m 07s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 17m 42s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 05m 39s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 34m 53s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 06m 11s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 35m 08s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 06m 32s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 46m 48s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 08m 55s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 51m 28s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 09m 21s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 52m 04s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 09m 32s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 13h 52m 30s.xml">
+    <history-entry file="TemperatureTest_(2) - 2018.02.05 at 15h 12m 32s.xml">
       <configuration name="TemperatureTest (2)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20893000" />
+    <option name="totallyTimeSpent" value="22822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27329844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27329844" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26387435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26387435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20619127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -351,26 +357,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Temperature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="50" lean-forward="false" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TemperatureNegativeException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="320">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/RigorTalks/TemperatureTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Temperature.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
