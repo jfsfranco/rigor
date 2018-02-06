@@ -47,7 +47,7 @@ class Temperature
     private function checkTemperatureIsNotNegative(int $measure)
     {
         if ($measure <= 0) {
-            throw new TemperatureNegativeException("Measure should be positive");
+            throw TemperatureNegativeException::fromMeasure($measure);
         }
     }
 

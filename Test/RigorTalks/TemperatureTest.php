@@ -24,7 +24,6 @@ class TemperatureTest extends TestCase
         Temperature::take(-1);
     }
 
-
     public function tryToCreateAValidTemperatureWithNamedConstructor()
     {
         $measure = 18;

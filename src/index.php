@@ -4,5 +4,10 @@ use RigorTalks\Temperature;
 
 require_once "../vendor/autoload.php";
 
-$temperature = new Temperature("18");
-echo $temperature->measure();
+$temperature = Temperature::take(-1);
+try{
+    echo $temperature->measure();
+}catch(\RigorTalks\TemperatureNegativeException $exception){
+    echo $exception->getMessage();
+    die();
+}
