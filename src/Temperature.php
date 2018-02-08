@@ -2,6 +2,7 @@
 
 namespace RigorTalks;
 
+
 /**
  * Class Temperature
  * @package RigorTalks
@@ -51,7 +52,7 @@ class Temperature
         }
     }
 
-    /**
+    /**1
      * @param $measure
      * @return Temperature
      */
@@ -59,5 +60,20 @@ class Temperature
     {
         return new static($measure);
 //        return new self($measure);
+    }
+
+    public function isSuperHot(): bool
+    {
+        $conn = \Doctrine\DBAL\DriverManager::getConnection(array(
+            'dbname' => 'mydb',
+            'user' => 'user',
+            'password' => 'secret',
+            'host' => 'localhost',
+            'driver' => 'pdo_mysql',
+            ), new \Doctrine\DBAL\Configuration());
+
+        $threshold = $conn->fetchColumn("select * from config");
+
+        return $this->measure() > $threshold;
     }
 }

@@ -1,0 +1,19 @@
+<phpunit
+        bootstrap="vendor/autoload.php"
+        colors="true"
+        convertErrorsToExceptions="true"
+        convertNoticesToExceptions="true"
+        convertWarningsToExceptions="true"
+        verbose="true">
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+        <blacklist>
+            <directory>./logs</directory>
+            <directory>./vendor</directory>
+            <directory>./Tests</directory>
+            <directory>./www</directory>
+        </blacklist>
+    </filter>
+</phpunit>

@@ -33,4 +33,21 @@ class TemperatureTest extends TestCase
         );
     }
 
+    public function tryToCheckIfAColdTemperatureIsSuperHot()
+    {
+        $this->markTestSkipped();
+        $this->assertFalse(
+            Temperature::take(10)->isSuperHot()
+        );
+    }
+
+    public function tryToCheckIfASuperHotTemperatureIsSuperHot()
+    {
+        $this->markTestSkipped();
+        $this->assertFalse(
+            Temperature::take(100)->isSuperHot()
+        );
+
+    }
+
 }
