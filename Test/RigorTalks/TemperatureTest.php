@@ -25,6 +25,9 @@ class TemperatureTest extends TestCase implements ColdThresholdSource
         Temperature::take(-1);
     }
 
+    /**
+     * @test
+     */
     public function tryToCreateAValidTemperatureWithNamedConstructor()
     {
         $measure = 18;
@@ -34,6 +37,9 @@ class TemperatureTest extends TestCase implements ColdThresholdSource
         );
     }
 
+    /**
+     * @test
+     */
     public function tryToCheckIfAColdTemperatureIsSuperHot()
     {
         $this->markTestSkipped();
@@ -42,6 +48,9 @@ class TemperatureTest extends TestCase implements ColdThresholdSource
         );
     }
 
+    /**
+     * @test
+     */
     public function tryToCheckIfASuperHotTemperatureIsSuperHot()
     {
         $this->markTestSkipped();
@@ -50,12 +59,33 @@ class TemperatureTest extends TestCase implements ColdThresholdSource
         );
     }
 
+    /**
+     * @test
+     */
     public function tryToCheckIfASuperColdTemperatureIsSuperCold()
     {
         $this->markTestSkipped();
         $this->assertTrue(
             Temperature::take(10)->isSuperCold(
                 // an object that implements ColdThresholdSource
+            )
+        );
+    }
+
+    /**
+     * @test
+     */
+    public function tryToCheckIfASuperColdTemperatureIsSuperColdAnomClass()
+    {
+        $this->markTestSkipped();
+        $this->assertTrue(
+            Temperature::take(10)->isSuperCold(
+                new class implements ColdThresholdSource {
+                    public function getThreshold(): int
+                    {
+                        return 50;
+                    }
+                }
             )
         );
     }
