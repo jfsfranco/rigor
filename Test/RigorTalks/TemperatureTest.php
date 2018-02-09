@@ -3,12 +3,13 @@
 namespace RigorTalks;
 
 use PHPUnit\Framework\TestCase;
+use RigorTalks\ColdThresholdSource;
 
 /**
  * Class TemperatureTest
  * @package RigorTalks\Tests
  */
-class TemperatureTest extends TestCase
+class TemperatureTest extends TestCase implements ColdThresholdSource
 {
     public function test()
     {
@@ -47,7 +48,21 @@ class TemperatureTest extends TestCase
         $this->assertFalse(
             Temperature::take(100)->isSuperHot()
         );
+    }
 
+    public function tryToCheckIfASuperColdTemperatureIsSuperCold()
+    {
+        $this->markTestSkipped();
+        $this->assertTrue(
+            Temperature::take(10)->isSuperCold(
+                // an object that implements ColdThresholdSource
+            )
+        );
+    }
+
+    public function getThreshold(): int
+    {
+        return 50;
     }
 
 }

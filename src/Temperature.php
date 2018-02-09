@@ -62,7 +62,20 @@ class Temperature
 //        return new self($measure);
     }
 
+    /**
+     * @return bool
+     */
     public function isSuperHot(): bool
+    {
+        $threshold = $this->getThreshold();
+
+        return $this->measure() > $threshold;
+    }
+
+    /**
+     * @return mixed
+     */
+    private function getThreshold()
     {
         $conn = \Doctrine\DBAL\DriverManager::getConnection(array(
             'dbname' => 'mydb',
@@ -70,10 +83,15 @@ class Temperature
             'password' => 'secret',
             'host' => 'localhost',
             'driver' => 'pdo_mysql',
-            ), new \Doctrine\DBAL\Configuration());
+        ), new \Doctrine\DBAL\Configuration());
 
         $threshold = $conn->fetchColumn("select * from config");
+        return $threshold;
+    }
 
-        return $this->measure() > $threshold;
+    public function isSuperCold(ColdThresholdSource $coldThresholdSource)
+    {
+        $threshold = $coldThresholdSource->getThreshold();
+        return $this->measure() < $threshold;
     }
 }
